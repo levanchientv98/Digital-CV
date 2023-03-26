@@ -1,0 +1,131 @@
+/* Tablets and under */
+/* 768 & 992 */
+@media (max-width: 992px) {
+  .flex-container img {
+    display: none;
+  }
+  .flex-container a:nth-child(2) {
+    padding: 14px 16px;
+  }
+  /* Digital-CV Tablet */
+  .cv-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .goal-content {
+    flex-direction: column;
+  }
+  .goals-icon {
+    text-align: center;
+  }
+  #team li {
+    flex-direction: column;
+  }
+  #team .icon {
+    text-align: center;
+  }
+
+  #primary li {
+    flex-direction: column;
+  }
+  #primary .primary-icon {
+    text-align: center;
+  }
+
+  #scopes ul {
+    flex-direction: column;
+  }
+
+  #timeline li {
+    flex-direction: column;
+  }
+  #timeline .timeline-number {
+    margin-left: 14px;
+  }
+  #timeline .project {
+    margin-top: 8px;
+  }
+
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+  }
+
+  .item-vung1 img {
+    width: auto;
+    height: 12vh;
+  }
+
+  .item-vung1 {
+    display: grid;
+    border-right: 1px solid #d6c08d;
+  }
+
+  .item-vung2 {
+    display: grid;
+  }
+
+  .item-vung2 img {
+    width: auto;
+    height: 12vh;
+  }
+
+  .item-vung3 {
+    display: grid;
+    padding-bottom: 20px;
+  }
+
+  .item-vung3 img {
+    width: auto;
+    height: 12vh;
+  }
+
+  .cef-content {
+    vertical-align: top;
+    text-align: left;
+    width: 350px;
+    padding: 10px;
+  }
+
+  .cef-content1 {
+    vertical-align: top;
+    padding: 10px;
+  }
+
+  /* Project Layout */
+  .grid-container3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+
+  .layout-content3 {
+    width: 26vw;
+  }
+  .layout-content3 img {
+    width: 26vw;
+    height: 12vh;
+  }
+  /* Fix Layout icon */
+  .setlayout-icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .style-pro {
+    margin: auto;
+    width: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1030px) {
+  /* Gird Layout 2 */
+  .grid-container2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}

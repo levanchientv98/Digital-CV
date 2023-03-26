@@ -1,0 +1,154 @@
+/* Mobile */
+@media (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+  }
+
+  .flex-container img {
+    display: none;
+  }
+
+  .nav-bar a:last-child {
+    border-right: none;
+  }
+
+  .nav-bar1 a {
+    text-align: left;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-left: none;
+  }
+
+  .grid-container1 {
+    display: grid;
+    justify-content: left;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #fff;
+    padding-bottom: 55px;
+  }
+
+  .target {
+    width: 90vw;
+    background-color: #f7f7f7;
+  }
+
+  .personal-info {
+    width: 90vw;
+  }
+
+  /* Digital-CV mobile */
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-card .timeline-number {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .project-card .timeline-number p {
+    margin: 5px 0;
+  }
+  .grid-container2 {
+    grid-template-columns: auto;
+  }
+
+  /* Certificate - Layout */
+
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+  }
+
+  .item-vung1 img {
+    border-right: none;
+    width: auto;
+    height: 20vh;
+  }
+
+  .item-vung1 {
+    display: grid;
+    border-bottom: 1px solid #d6c08d;
+    border-right: none;
+  }
+
+  .item-vung2 {
+    display: grid;
+    grid-row: 2 / 2;
+    grid-column: 1;
+    padding: 20px 0px;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .item-vung2 img {
+    width: auto;
+    height: 20vh;
+  }
+
+  .item-vung3 {
+    display: grid;
+    border-top: none;
+    padding-top: 20px;
+  }
+
+  .item-vung3 img {
+    width: auto;
+    height: 20vh;
+  }
+
+  .cef-content {
+    vertical-align: top;
+    text-align: left;
+    width: 350px;
+    padding: 10px;
+    border-right: none;
+  }
+
+  .cef-content1 {
+    vertical-align: top;
+    padding: 10px;
+  }
+
+  /* Project Layout */
+  .grid-container3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    gap: 2vh;
+  }
+
+  .layout-content3 {
+    width: 80vw;
+  }
+  .layout-content3 img {
+    width: 80vw;
+    height: 20vh;
+  }
+
+  .project-title3 td {
+    padding: 10px 5px;
+  }
+
+  .setlayout-title2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .setlayout-icon i {
+    padding: 6px 0px;
+  }
+
+  .style-contact {
+    text-align: left;
+  }
+  .style-contact ul {
+    padding-left: 4rem;
+  }
+}
