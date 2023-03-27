@@ -195,14 +195,12 @@ i {
   font-size: 15px;
   font-style: italic;
   float: left;
-  width: 150px;
   color: #525252;
 }
 .date1 {
   font-size: 15px;
   font-style: italic;
   float: left;
-  width: 63px;
 }
 
 .date-layout {
@@ -229,7 +227,7 @@ i {
   border: 2px solid #26a9e1; */
 }
 .icon-go {
-  margin: 8px;
+  margin: 10px;
   min-height: 40px;
   justify-content: center;
   display: flex;
@@ -249,7 +247,7 @@ i {
   justify-content: center;
   width: 70px;
   height: 50px;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
 }
 
